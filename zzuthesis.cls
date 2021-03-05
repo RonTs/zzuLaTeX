@@ -58,18 +58,18 @@
   \punctstyle{hangmobanjiao}
   \defaultfontfeatures{Mapping=tex-text}%连字符
   \setCJKmainfont[BoldFont={STZhongsong}, 
-    ItalicFont={Adobe Kaiti Std}]{Adobe Song Std}
-  \setCJKsansfont{Adobe Heiti Std}
-  \setCJKmonofont{Adobe Kaiti Std}
-  \setCJKfamilyfont{song}{Adobe Song Std}
-  \setCJKfamilyfont{hei}{Adobe Heiti Std}
-  \setCJKfamilyfont{fs}{Adobe Fangsong Std}
-  \setCJKfamilyfont{kai}{Adobe Kaiti Std}
-  \setCJKfamilyfont{xingkai}{STXingkai}%封面标题
+    ItalicFont={Adobe KaiTi Std R},Path=fonts/,]{Adobe Song Std L2}
+  \setCJKsansfont[Path=fonts/]{Adobe HeiTi Std R2}
+  \setCJKmonofont[Path=fonts/]{Adobe KaiTi Std R}
+  \setCJKfamilyfont{song}[Path=fonts/]{Adobe Song Std L2}
+  \setCJKfamilyfont{hei}[Path=fonts/]{Adobe HeiTi Std R2}
+  \setCJKfamilyfont{fs}[Path=fonts/]{Adobe FangSong Std R}
+  \setCJKfamilyfont{kai}[Path=fonts/]{Adobe KaiTi Std R}
+  \setCJKfamilyfont{xingkai}[Path=fonts/]{STXingkai}%封面标题
   % \setCJKfamilyfont{vertfont}[RawFeature={vertical}]{Adobe Song Std}%竖直字体
-  \setmainfont{Times New Roman}
-  \setsansfont{Arial}
-  \setmonofont{Courier New}
+  \setmainfont[Path=fonts/]{times}
+  \setsansfont[Path=fonts/]{arial}
+  \setmonofont[Path=fonts/]{cour}
 \RequirePackage[numbers,super,sort&compress]{natbib}%参考文献引用
 \RequirePackage{hyperref}%超链接、书签
   \hypersetup{%
@@ -103,9 +103,9 @@
 %% 字体配置
 %% 字体调用命令：
 %%   \song    % 宋体 Adobe Song Std
-%%   \hei     % 黑体 Adobe Heiti Std
-%%   \kai     % 楷书 Adobe Kaiti Std
-%%   \fs      % 仿宋 Adobe Fangsong Std
+%%   \hei     % 黑体 Adobe HeiTi Std R2
+%%   \kai     % 楷书 Adobe KaiTi Std R
+%%   \fs      % 仿宋 Adobe FangSong Std R
 %%   \xingkai % 行楷 STXingkai
 %%   \vertfont% 竖宋 Adobe Song Std
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
